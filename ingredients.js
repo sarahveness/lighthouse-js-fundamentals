@@ -3,20 +3,17 @@ var list = 0
 
 // Write a while loop that prints out the contents of ingredients:
 while (list < ingredients.length) {
-  console.log(ingredients[list]);
+  console.log(ingredients[list])
   list++;
 }
 
 // Write a for loop that prints out the contents of ingredients:
-for (var list; list < ingredients.length; list++) {
+for (; list < ingredients.length; list++) {
   console.log(ingredients[list]);
 }
 
 
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
-while (list < ingredients.length) {
-  ingredients.reverse();
-  console.log(ingredients);
-  list++;
-  break;
+for (var i = ingredients.length -1; i >= 0; i--) {
+  console.log(ingredients[i]);
 }
