@@ -8,7 +8,7 @@ while (list < ingredients.length) {
 }
 
 // Write a for loop that prints out the contents of ingredients:
-for (; list < ingredients.length; list++) {
+for (list = 0; list < ingredients.length; list++) {
   console.log(ingredients[list]);
 }
 
